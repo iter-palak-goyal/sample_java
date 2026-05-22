@@ -5,7 +5,7 @@ public class Test {
     int a=1;
     int b=17;
     int result = a*b;
-    //result is multiplication of two numbers
+   
     System.out.println("The product of a and b is " +result);
     
   }
