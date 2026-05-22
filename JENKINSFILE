@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+
+    triggers {
+        githubPush()
+    }
+
+    stages {
+        stage('Clone') {
+            steps {
+                git branch: 'master',
+                url: 'https://github.com/iter-palak-goyal/sample_java'
+            }
+        }
+
+        stage('Run') {
+            steps {
+                sh '''
+                javac Test.java
+                java Test
+                '''
+            }
+        }
+    }
+}
