@@ -2,7 +2,7 @@ public class Test {
 
   static void add(){
 
-    int a=14;
+    int a=1;
     int b=17;
     int result = a*b;
     //result is multiplication of two numbers
