@@ -1,9 +1,10 @@
 public class Test {
 
   static void add(){
-System.out.println("Hi, i am good"
+System.out.println("Hi, i am good");
 
-    int a=1;
+
+    int a=17;
     int b=17;
     int result = a*b;
    
