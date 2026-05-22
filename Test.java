@@ -1,6 +1,7 @@
 public class Test {
 
   static void add(){
+System.out.println("Hi, i am good"
 
     int a=1;
     int b=17;
