@@ -2,9 +2,9 @@ public class Test {
 
   static void add(){
 
-    int a=8;
-    int b=5;
-    int result = a*b;
+    int a=84;
+    int b=57;
+    int result = a+b;
     //result is multiplication of two numbers
     System.out.println("The product of a and b is " +result);
     
