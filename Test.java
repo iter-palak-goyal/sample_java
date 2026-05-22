@@ -4,9 +4,9 @@ public class Test {
 
     int a=84;
     int b=17;
-    int result = a+b;
+    int result = a*b;
     //result is multiplication of two numbers
-    System.out.println("The sum of a and b is " +result);
+    System.out.println("The product of a and b is " +result);
     
   }
   public static void main(String[] args)
