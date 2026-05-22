@@ -6,7 +6,7 @@ public class Test {
     int b=65;
     int result = a*b;
     //result is multiplication of two numbers
-    System.out.println("The sum is " +result);
+    System.out.println("The product of a and b is " +result);
     
   }
   public static void main(String[] args)
