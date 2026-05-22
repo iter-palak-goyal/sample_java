@@ -4,7 +4,7 @@ public class Test {
 System.out.println("Hi, i am good");
 
 
-    int a=57;
+    int a=87;
     int b=17;
     int result = a+b;
    
