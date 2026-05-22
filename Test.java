@@ -3,7 +3,7 @@ public class Test {
   static void add(){
 
     int a=84;
-    int b=57;
+    int b=17;
     int result = a+b;
     //result is multiplication of two numbers
     System.out.println("The sum of a and b is " +result);
